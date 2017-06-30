@@ -1,0 +1,44 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+body {
+margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+background-color: rgb(12,34,48);
+}
+
+.navbar{
+  margin: 0;
+}
+
+.about{
+  text-align: center;
+}
+
+.full {
+ /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed;*/
+ background: url("../images/laser_keyboard.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.jumbotron{
+color: white;
+background-color: rgb(12,34,48);
+margin: 0;
+padding: 0;
+/*background-color:none !important;*/
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  color:white;
+}
+
+div p{
+  color: white;
+}
